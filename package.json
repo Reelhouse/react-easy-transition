@@ -2,7 +2,7 @@
   "name": "react-easy-transition",
   "version": "0.0.5",
   "description": "Easy transitions with React and React-router",
-  "main": "lib/easy-transition",
+  "main": "src/easy-transition",
   "files": [
     "*.md",
     "LICENSE",
@@ -66,8 +66,10 @@
     "redux-devtools-log-monitor": "^1.0.1",
     "webpack": "^1.12.9"
   },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0"
+  },
   "dependencies": {
-    "react": "^0.14.0 || ^15.0",
     "react-addons-transition-group": "^0.14.0 || ^15.0"
   }
 }
