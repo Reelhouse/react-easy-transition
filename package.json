@@ -2,7 +2,7 @@
   "name": "react-easy-transition",
   "version": "0.0.5",
   "description": "Easy transitions with React and React-router",
-  "main": "src/easy-transition",
+  "main": "lib/easy-transition",
   "files": [
     "*.md",
     "LICENSE",
@@ -20,6 +20,7 @@
   "license": "MIT",
   "scripts": {
     "build": "mkdir -p lib && babel ./src -d lib",
+    "babel": "babel ./src -d lib",
     "lint": "eslint examples src",
     "prepublish": "npm run build"
   },
